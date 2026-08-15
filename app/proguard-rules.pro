@@ -1,0 +1,9 @@
+-keepattributes *Annotation*,InnerClasses
+-keep class com.stark.note.domain.export.BackupEnvelope { *; }
+-keep class com.stark.note.domain.export.BackupKdf { *; }
+-keep class com.stark.note.domain.export.BackupPayload { *; }
+-keep class com.stark.note.domain.export.BackupNoteData { *; }
+-keep class com.stark.note.domain.export.BackupItemData { *; }
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn javax.annotation.**
+-dontwarn javax.annotation.concurrent.**
